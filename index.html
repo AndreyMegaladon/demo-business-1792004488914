@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante & Gastronomía Exclusiva</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-950 text-stone-100 font-sans">
+
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-stone-950/80 border-b border-stone-800">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <a href="index.html" class="text-2xl font-serif tracking-widest text-amber-500">L'EXCELLENCE</a>
+            <nav class="hidden md:flex space-x-8 text-sm uppercase tracking-wider text-stone-300">
+                <a href="index.html" class="text-amber-500 font-semibold">Inicio</a>
+                <a href="about.html" class="hover:text-amber-500 transition">Nosotros</a>
+                <a href="services.html" class="hover:text-amber-500 transition">Menú</a>
+                <a href="gallery.html" class="hover:text-amber-500 transition">Galería</a>
+                <a href="contacts.html" class="hover:text-amber-500 transition">Contacto</a>
+            </nav>
+            <a href="booking.html" class="bg-amber-600 hover:bg-amber-500 text-stone-950 font-semibold px-5 py-2.5 rounded-full transition shadow-lg shadow-amber-900/20">Reservar Mesa</a>
+        </div>
+    </header>
+
+    <section class="relative min-h-[90vh] flex items-center justify-center bg-cover bg-center px-6" style="background-image: linear-gradient(to bottom, rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.9)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4');">
+        <div class="max-w-3xl text-center">
+            <span class="text-amber-500 uppercase tracking-widest text-sm font-semibold mb-4 block">Alta Cocina de Autor</span>
+            <h1 class="text-5xl md:text-7xl font-serif font-bold mb-6 text-stone-100 leading-tight">Una experiencia sensorial inolvidable</h1>
+            <p class="text-lg text-stone-300 mb-10 font-light">Sabores tradicionales reinterpretados con técnica moderna en un ambiente sofisticado.</p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="booking.html" class="bg-amber-500 hover:bg-amber-400 text-stone-950 font-medium px-8 py-4 rounded-xl transition shadow-xl">Reservar Experiencia</a>
+                <a href="services.html" class="border border-stone-700 hover:border-amber-500 text-stone-200 px-8 py-4 rounded-xl transition">Ver Menú</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 max-w-7xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-serif text-stone-100 mb-4">Especialidades de la Casa</h2>
+            <p class="text-stone-400 max-w-xl mx-auto">Descubre nuestras creaciones más icónicas preparadas con ingredientes de temporada.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden hover:shadow-2xl transition group">
+                <img src="https://images.unsplash.com/photo-1544025162-d76694265947" alt="Plato 1" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+                <div class="p-6">
+                    <h3 class="text-xl font-serif mb-2 text-stone-100">Solomillo Rossini</h3>
+                    <p class="text-stone-400 text-sm mb-4">Corte selecto con foie gras, trufa negra y reducción de Oporto.</p>
+                    <span class="text-amber-500 font-semibold">36.00 €</span>
+                </div>
+            </div>
+            <div class="bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden hover:shadow-2xl transition group">
+                <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c" alt="Plato 2" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+                <div class="p-6">
+                    <h3 class="text-xl font-serif mb-2 text-stone-100">Tartare de Atún Rojo</h3>
+                    <p class="text-stone-400 text-sm mb-4">Atún salvaje con emulsión de aguacate, sésamo y caviar cítrico.</p>
+                    <span class="text-amber-500 font-semibold">24.00 €</span>
+                </div>
+            </div>
+            <div class="bg-stone-900 border border-stone-800 rounded-2xl overflow-hidden hover:shadow-2xl transition group">
+                <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87" alt="Plato 3" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+                <div class="p-6">
+                    <h3 class="text-xl font-serif mb-2 text-stone-100">Esfera de Chocolate Valrhona</h3>
+                    <p class="text-stone-400 text-sm mb-4">Mousse de chocolate crujiente con corazón de frutos rojos.</p>
+                    <span class="text-amber-500 font-semibold">14.00 €</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-stone-900 border-t border-stone-800 py-12 text-center text-stone-400 text-sm">
+        <p>&copy; 2024 L'Excellence. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
